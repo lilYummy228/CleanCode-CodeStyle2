@@ -19,6 +19,5 @@ public class Weapon
             throw new InvalidOperationException($"{nameof(_bulletCount)} is less than or equal to zero");
 
         _bulletCount -= _shotCount;
-
     }
 }
